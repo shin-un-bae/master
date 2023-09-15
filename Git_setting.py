@@ -1,0 +1,42 @@
+--Git 설치하기 : https://git-scm.com/
+
+--설치 완료 후 Git bash 열기
+
+--git bash 에서 환경설정 하기
+
+--Step 1 : 유저이름 설정
+git config --global user.name "shin-un-bae"
+
+--Step 2 : 유저 이메일 설정하기
+git config --global user.email "drmsys@gmail.com"
+
+--Step 3 : 정보 확인하기
+git config --list
+
+--자료올리기
+
+--1.초기화
+git init  
+
+--2.추가할 파일 더하기
+git add .
+
+--3.상태확인(선택사항)
+git status
+
+--4.히스토리 만들기
+git commit -m "firtst commit"
+
+--5.Github repository랑 내 로컬 프로젝트랑 연결
+git remote add origin https://github.com/shin-un-bae/drmsys/main
+
+--6.잘 연결됬는지 확인 (선택사항)
+git remote -v
+
+--7.Github로 올리기
+git push origin main
+
+
+
+--자료다운
+git clone https://github.com/shin-un-bae/drmsys.git drmsys
