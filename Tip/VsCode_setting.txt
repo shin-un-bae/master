@@ -1,0 +1,7 @@
+# 파일>기본설정>설정
+    폰트 :20
+    zoom :2
+# compact folders :체크해제
+
+# pip업그레이드 방법(python install packages)
+python -m pip install --upgrade pip

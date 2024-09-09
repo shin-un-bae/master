@@ -1,0 +1,4 @@
+# pip install pyinstaller 로 설치
+# pyinstaller -F C:\drmsys\DB2\AS400\pd_read.py
+   # -F(대문자)는 하나의 화일로 만들겠다는 옵션 아니면 폴더속에 생김
+# 설치파일(exe)은 c:\drmsys\dist 폴더에 있다
